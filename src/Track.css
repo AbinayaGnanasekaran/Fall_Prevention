@@ -1,0 +1,14 @@
+.track-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .exercise-card {
+    background-color: #f1f8e9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  

@@ -1,0 +1,87 @@
+
+
+.exercise-container {
+  background-color: #3b2a19;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background: url('C:\Users\Abinaya Gnanasekaran\Desktop\Falls_Prev\health-alert-system\frontend\public\food.jpg') no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+  
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.section-title {
+  background-color: #8b5a2b;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.recommendation-section {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+
+.exercise-card {
+  display: flex;
+  align-items: center;
+  background: wheat;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: 50%; /* Ensures two cards fit in one row */
+  
+}
+
+.exercise-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.video-link {
+  display: block;
+  margin: 10px 0;
+  color: #8b4513;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video-link:hover {
+  text-decoration: underline;
+}
+
+.track-button {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.track-button.completed {
+  background-color: green;
+}
+
+.track-button:hover {
+  opacity: 0.8;
+} 
